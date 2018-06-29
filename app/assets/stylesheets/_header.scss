@@ -1,0 +1,16 @@
+.header {
+    color: #ff5e3a;
+    text-align: center;
+    height: 200px;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .header-content h1 {
+    font-size: 75px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  

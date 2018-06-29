@@ -9,7 +9,7 @@
    <li class = "in-line">
    <p>ingredient: <%= d.ingredient.name %></p>
     <p>dose: <%= d.description %></p>
-    <%= link_to "<= Delete this dose", cocktail_dose_path(d), method: :delete %>
+    <%= link_to "<= Delete this dose", cocktail_dose_path(@cocktail, d), method: :delete %>
     </li>    
     <p><% end %></p>
 </ul>
